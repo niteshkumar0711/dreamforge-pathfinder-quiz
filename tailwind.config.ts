@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// DreamForge custom colors
+				dreamforge: {
+					dark: '#0F1035',
+					blue: '#365486',
+					cyan: '#7FC7D9',
+					light: '#DCF2F1'
 				}
 			},
 			borderRadius: {
