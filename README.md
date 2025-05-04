@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
+🌟 DreamForge 
 
-## Project info
+An interactive AI-powered career counseling website designed to help students discover their ideal career path after 12th grade through a personalized quiz experience.
 
-**URL**: https://lovable.dev/projects/f4ac0967-0ec7-49ea-9d21-47f12be208c4
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+🚀 Features
 
-**Use Lovable**
+🎯 Stream Selection: Choose between Commerce, Science (Maths/Bio), or Arts.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f4ac0967-0ec7-49ea-9d21-47f12be208c4) and start prompting.
+🧠 Dynamic Quiz Flow: 10 adaptive questions based on your stream and choices.
 
-Changes made via Lovable will be committed automatically to this repo.
+💡 AI-style Recommendations: Personalized career suggestions after quiz completion.
 
-**Use your preferred IDE**
+📊 Progress Tracker: Visual progress bar for the quiz.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🖼️ Modern UI: Built with TailwindCSS, fully responsive design.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🔐 Authentication (Upcoming): Secure user login system.
 
-Follow these steps:
+🧑‍💻 Admin Panel (Upcoming): Manage content, track user analytics.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+🛠️ Tech Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+| Tech              | Usage                        |
+| ----------------- | ---------------------------- |
+| **HTML/CSS**      | Structure & basic styling    |
+| **Tailwind CSS**  | Modern, responsive UI design |
+| **TypeScript**    | Typed JavaScript             |
+| **React + Vite**  | Fast frontend development    |
+| **PostCSS**       | CSS processing               |
+| **Firebase/Auth** | (Planned) Authentication     |
+
+
+
+📂 Folder Structure
+
+dreamforge-pathfinder-quiz/
+├── public/               # Static assets
+├── src/                  # React components and logic
+│   ├── components/       # UI Components (e.g., Quiz, Navbar)
+│   ├── data/             # Quiz data and question bank
+│   ├── pages/            # Pages like Home, Quiz, Result
+├── index.html            # Entry point
+├── tailwind.config.ts    # Tailwind config
+├── vite.config.ts        # Vite config
+
+
+
+
+
+
+🧪 How to Run Locally
+
+# 1. Clone the repository
+git clone https://github.com/niteshkumar0711/dreamforge-pathfinder-quiz.git
+cd dreamforge-pathfinder-quiz
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🎯 Future Plans
 
-## What technologies are used for this project?
+✅ Complete frontend layout and quiz flow
 
-This project is built with:
+🔐 Add authentication for user login/signup
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📈 Build admin panel with user analytics
 
-## How can I deploy this project?
+🤖 Add chatbot or live counseling option
 
-Simply open [Lovable](https://lovable.dev/projects/f4ac0967-0ec7-49ea-9d21-47f12be208c4) and click on Share -> Publish.
+📝 Allow users to download their results as PDF
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🙌 Contributing
+Contributions are welcome! Please open an issue first to discuss what you’d like to change.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+📄 License
+This project is open-source and available under the MIT License.
+
+
+🙋‍♂️ Author
+
+Made with ❤️ by **Nitesh Kumar**  
+[GitHub](https://github.com/niteshkumar0711) • [LinkedIn](https://www.linkedin.com/in/nitesh-kumar-0711/)
+
